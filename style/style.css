@@ -124,7 +124,7 @@ header>* {
 }
 
 .nav-button.new-post-button {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 30px;
     width: 60px;
@@ -142,6 +142,7 @@ header>* {
 
 .nav-button.new-post-button:hover {
     background-color: #002349;
+    transition: all 0.45s ease;
 }
 
 footer {
