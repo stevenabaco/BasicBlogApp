@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+header {
+    min-height: 350px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/js/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header>* {
+    z-index: 10;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(../js/assets/profile.jpg);
+    background-size: cover;
+}
+
+.profile-name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.subtext {
+    margin-top: 8px;
+}
+
+footer {}
