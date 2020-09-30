@@ -9,7 +9,6 @@ body {
 
 header {
     min-height: 350px;
-    background-color: blue;
     color: white;
     display: flex;
     flex-direction: column;
@@ -84,7 +83,6 @@ header>* {
 
 .post-image {
     flex-basis: 40%;
-    background-image: url(/js/assets/blog-img-1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -143,6 +141,15 @@ header>* {
 .nav-button.new-post-button:hover {
     background-color: #002349;
     transition: all 0.45s ease;
+}
+
+.navigation a {
+    text-decoration: none;
+    border: 1px solid#004186;
+    color: #004186;
+    box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.3);
+    padding: 5px 8px;
+    border-radius: 10%;
 }
 
 footer {
