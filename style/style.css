@@ -14,10 +14,13 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/js/assets/banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.home-page header {
+    background-image: url(/js/assets/banner.jpg);
 }
 
 header::after {
