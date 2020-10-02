@@ -19,7 +19,8 @@ header {
     position: relative;
 }
 
-.home-page header {
+.home-page header,
+.new-post-page header {
     background-image: url(/js/assets/banner.jpg);
 }
 
@@ -38,15 +39,16 @@ header>* {
 }
 
 .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     border-radius: 50%;
     background-image: url(../js/assets/profile.jpg);
     background-size: cover;
 }
 
-.profile-name {
+.profile-name,
+.title {
     font-size: 3em;
     font-weight: bold;
 }
